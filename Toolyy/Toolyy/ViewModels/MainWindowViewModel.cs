@@ -50,7 +50,10 @@ namespace Toolyy.ViewModel
         }
         private void WerkzeugViewCommandExecute(object parameter)
         {
-            var window = new WerkzeugListeView(); 
+            var window = new WerkzeugListeView
+            {
+                DataContext = werkzeugViewModel
+            };
             window.Show();
         }
 

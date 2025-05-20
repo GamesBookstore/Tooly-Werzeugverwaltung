@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Toolyy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeuglisteview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeuglisteview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\werkzeuglisteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\werkzeuglisteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\addwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\addwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeuglisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeuglisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,23 +42,84 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "WerkzeugView.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugView.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugView.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugView.xaml",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T18:22:16.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WerkzeugListeView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml.cs",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugListeView.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml.cs",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugListeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:22:13.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddWerkzeugView.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\AddWerkzeugView.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\AddWerkzeugView.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\AddWerkzeugView.xaml",
+              "RelativeToolTip": "Toolyy\\View\\AddWerkzeugView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T18:22:06.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WerkzeugListeView.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugListeView.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugListeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T17:56:50.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WerkzeugListeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwDIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:54:48.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Toolyy\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml",
               "RelativeToolTip": "Toolyy\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T13:53:23.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T13:53:23.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Toolyy\\MainWindow.xaml.cs",
@@ -46,18 +127,17 @@
               "RelativeToolTip": "Toolyy\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:58:25.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T13:58:25.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "Toolyy\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "Toolyy\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T13:53:30.399Z",
               "EditorCaption": ""
