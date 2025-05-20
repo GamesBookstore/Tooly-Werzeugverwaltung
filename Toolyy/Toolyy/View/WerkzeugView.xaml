@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Toolyy.View.WerkzeugView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Toolyy.ViewModels"
+             mc:Ignorable="d"
+             d:DesignHeight="400" d:DesignWidth="600">
+
+    <!--<UserControl.DataContext>
+        <vm:WerkzeugViewModel />
+    </UserControl.DataContext>-->
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+            <TextBox Width="150" Margin="5" Text="{Binding AktuellesWerkzeug.Name, UpdateSourceTrigger=PropertyChanged}" ToolTip="Name"/>
+            <TextBox Width="150" Margin="5" Text="{Binding AktuellesWerkzeug.Category}" ToolTip="Kategorie"/>
+            <TextBox Width="150" Margin="5" Text="{Binding AktuellesWerkzeug.Location}" ToolTip="Ort"/>
+            <CheckBox Content="Verfügbar" IsChecked="{Binding AktuellesWerkzeug.Available}" Margin="5"/>
+        </StackPanel>
+
+        <Button Content="Werkzeug hinzufügen" Grid.Row="1" Height="30" Width="180" HorizontalAlignment="Left" 
+                Command="{x:Null}" Click="Hinzufuegen_Click"/>
+
+        <ListBox Grid.Row="2" Margin="0 10 0 0" ItemsSource="{Binding Werkzeuge}" DisplayMemberPath="Name"/>
+    </Grid>
+</UserControl>

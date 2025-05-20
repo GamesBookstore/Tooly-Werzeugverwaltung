@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Toolyy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml",
+              "RelativeToolTip": "Toolyy\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T13:53:23.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Toolyy\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Toolyy\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:58:25.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:53:30.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

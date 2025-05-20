@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bRNUbmCoLIM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\Toolyy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david\\.nuget\\packages\\prism.events\\9.0.537\\prism.events.9.0.537.nupkg.sha512"
+  ],
+  "logs": []
+}
