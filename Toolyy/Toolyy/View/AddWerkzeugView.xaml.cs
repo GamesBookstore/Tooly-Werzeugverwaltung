@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Toolyy.Models;
 
 namespace Toolyy.View
 {
@@ -20,9 +21,31 @@ namespace Toolyy.View
     /// </summary>
     public partial class AddWerkzeugView : Window
     {
-        public AddWerkzeugView()
+        public AddWerkzeugView(Werkzeug werkzeug = null)
         {
             InitializeComponent();
+
+            if (werkzeug == null)
+            {
+                werkzeug = new Werkzeug();
+            }
+
+            DataContext = werkzeug;
         }
+
+        public Werkzeug Werkzeug
+        {
+            get
+            {
+                return DataContext as Werkzeug;
+            }
+        }
+
+        private void Hinzufuegen_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = true;
+            Close();
+        }
+
     }
 }

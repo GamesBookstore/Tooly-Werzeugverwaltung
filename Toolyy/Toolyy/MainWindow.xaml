@@ -9,7 +9,7 @@
         Title="Tooly" Height="450" Width="800">
     <Grid>
         <StackPanel Orientation="Vertical">
-            <Button Content="Edit Tools" Command="{Binding AddWerkzeugViewCommand}"/>
+            <Button Content="Edit Tools" Command="{Binding WerkzeugViewCommand}"/>
             <Button Content="Manage Tools" Command="{Binding WerkzeugViewCommand}"/>
         </StackPanel>
 
