@@ -10,7 +10,7 @@
     <Grid>
         <StackPanel Orientation="Vertical">
             <Button Content="Edit Tools" Command="{Binding WerkzeugViewCommand}"/>
-            <Button Content="Manage Tools" Command="{Binding WerkzeugViewCommand}"/>
+            <Button Content="Manage Tools" Command="{Binding ManageWerkzeugViewCommand}" Height="27"/>
         </StackPanel>
 
         

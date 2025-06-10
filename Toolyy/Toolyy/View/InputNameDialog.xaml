@@ -1,0 +1,18 @@
+﻿<Window x:Class="Toolyy.View.InputNameDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Name eingeben" Height="150" Width="300" WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="NameTextBox" Margin="0,0,0,10" />
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right">
+            <Button Content="OK" Width="75" Margin="5" IsDefault="True" Click="OK_Click"/>
+            <Button Content="Abbrechen" Width="75" Margin="5" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

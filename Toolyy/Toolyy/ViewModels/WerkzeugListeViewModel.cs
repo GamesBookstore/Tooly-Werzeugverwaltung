@@ -1,21 +1,19 @@
-﻿using System;
+﻿using System.Collections.ObjectModel;
 using System.Windows;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
-using Toolyy.Models;
-using Common;
-using Prism.Events;
 using System.Windows.Input;
+using Common;
 using Common.Command;
+using Prism.Events;
+using Toolyy.Models;
 using Toolyy.View;
+using Toolyy.Events;
 
 namespace Toolyy.ViewModels
 {
     public class WerkzeugListeViewModel : BaseViewModel
     {
+        private readonly IEventAggregator _eventAggregator;
+
         public ObservableCollection<Werkzeug> Werkzeuge { get; set; }
 
         private Werkzeug _ausgewaehltesWerkzeug;
@@ -28,18 +26,18 @@ namespace Toolyy.ViewModels
                 OnPropertyChanged(nameof(AusgewaehltesWerkzeug));
                 (BearbeitenCommand as ActionCommand)?.RaiseCanExecuteChanged();
                 (LoeschenCommand as ActionCommand)?.RaiseCanExecuteChanged();
-
             }
-
         }
 
         public ICommand BearbeitenCommand { get; }
         public ICommand LoeschenCommand { get; }
         public ICommand HinzufuegenCommand { get; }
-        public WerkzeugListeViewModel() : base(null)
-        {
-            Werkzeuge = new ObservableCollection<Werkzeug>
 
+        public WerkzeugListeViewModel(IEventAggregator eventAggregator) : base(eventAggregator)
+        {
+            _eventAggregator = eventAggregator;
+
+            Werkzeuge = new ObservableCollection<Werkzeug>
             {
                 new Werkzeug(1, "Hammer", "Handwerkzeug", true, "Lager A"),
                 new Werkzeug(2, "Bohrmaschine", "Elektro", false, "Lager B"),
@@ -50,13 +48,10 @@ namespace Toolyy.ViewModels
             BearbeitenCommand = new ActionCommand(Bearbeiten, CanBearbeitenOderLoeschen);
             LoeschenCommand = new ActionCommand(Loeschen, CanBearbeitenOderLoeschen);
             HinzufuegenCommand = new ActionCommand(Hinzufuegen, null);
+
+            
+            _eventAggregator.GetEvent<WerkzeugAddedEvent>().Subscribe(OnWerkzeugAdded, ThreadOption.UIThread);
         }
-
-        //public WerkzeugListeViewModel(IEventAggregator eventAggregator) : base(eventAggregator)
-        //{
-        //}
-
-        public ICommand WerkzeugAusgewaehltCommand { get; set; }
 
         private bool CanBearbeitenOderLoeschen(object parameter)
         {
@@ -65,21 +60,34 @@ namespace Toolyy.ViewModels
 
         private void Bearbeiten(object parameter)
         {
-            if (AusgewaehltesWerkzeug == null)
-            {
-                return;
-            }
+            if (AusgewaehltesWerkzeug == null) return;
 
-            var dialog = new AddWerkzeugView(AusgewaehltesWerkzeug); 
+            var tempWerkzeug = new Werkzeug
+            {
+                Id = AusgewaehltesWerkzeug.Id,
+                Name = AusgewaehltesWerkzeug.Name,
+                Category = AusgewaehltesWerkzeug.Category,
+                Available = AusgewaehltesWerkzeug.Available,
+                Location = AusgewaehltesWerkzeug.Location
+            };
+
+            var dialog = new EditWerkzeugView(tempWerkzeug, _eventAggregator); 
             if (dialog.ShowDialog() == true)
-            {                
-                OnPropertyChanged(nameof(Werkzeuge));
+            {
+                AusgewaehltesWerkzeug.Name = tempWerkzeug.Name;
+                AusgewaehltesWerkzeug.Category = tempWerkzeug.Category;
+                AusgewaehltesWerkzeug.Available = tempWerkzeug.Available;
+                AusgewaehltesWerkzeug.Location = tempWerkzeug.Location;
+                
+                OnPropertyChanged(nameof(Werkzeuge)); 
             }
         }
 
         private void Loeschen(object parameter)
         {
-            if (AusgewaehltesWerkzeug != null && MessageBox.Show($"Werkzeug „{AusgewaehltesWerkzeug.Name}“ wirklich löschen?","Löschen", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+            if (AusgewaehltesWerkzeug != null &&
+                MessageBox.Show($"Werkzeug „{AusgewaehltesWerkzeug.Name}“ wirklich löschen?",
+                "Löschen", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
             {
                 Werkzeuge.Remove(AusgewaehltesWerkzeug);
                 AusgewaehltesWerkzeug = null;
@@ -88,40 +96,19 @@ namespace Toolyy.ViewModels
 
         private void Hinzufuegen(object parameter)
         {
-            var neuesWerkzeug = new Werkzeug(); 
-            var dialog = new AddWerkzeugView(neuesWerkzeug);
+            var neuesWerkzeug = new Werkzeug();
+            var dialog = new AddWerkzeugView(neuesWerkzeug); 
 
             if (dialog.ShowDialog() == true)
-            {
-                neuesWerkzeug.Id = Werkzeuge.Count + 1;
-                Werkzeuge.Add(neuesWerkzeug);
+            {                
+                EventAggregator.GetEvent<WerkzeugAddedEvent>().Publish(neuesWerkzeug);
             }
         }
 
-        private void WerkzeugAusgewaehlt(object parameter)
+        private void OnWerkzeugAdded(Werkzeug werkzeug)
         {
-            if (AusgewaehltesWerkzeug == null)
-            {
-                return;
-            }
-
-            MessageBox.Show(
-                $"Ausgewählt: {AusgewaehltesWerkzeug.Name}\n" +
-                $"Kategorie: {AusgewaehltesWerkzeug.Category}\n" +
-                $"Verfügbar: {(AusgewaehltesWerkzeug.Available ? "Ja" : "Nein")}",
-                "Werkzeugdetails",
-                MessageBoxButton.OK,
-                MessageBoxImage.Information
-            );
+            werkzeug.Id = Werkzeuge.Count + 1;
+            Werkzeuge.Add(werkzeug);
         }
-
-        private bool CanWerkzeugAusgewaehlt(object parameter)
-        {
-            return true;
-
-        }
-
-
     }
 }
-

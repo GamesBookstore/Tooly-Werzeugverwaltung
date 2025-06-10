@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\david\source\repos\Toolyy\Toolyy\App.xaml
-4558359872
+7-477032944
 
-1498213000
+191299864381
 200674827847
-MainWindow.xaml;View\AddWerkzeugView.xaml;View\WerkzeugListeView.xaml;View\WerkzeugView.xaml;
+MainWindow.xaml;View\AddWerkzeugView.xaml;View\EditWerkzeugView.xaml;View\InputNameDialog.xaml;View\WerkzeugDetailsView.xaml;View\WerkzeugListeView.xaml;View\WerkzeugVerwaltungView.xaml;
 
 False
 

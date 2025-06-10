@@ -7,9 +7,9 @@
              mc:Ignorable="d"
              d:DesignHeight="400" d:DesignWidth="600">
 
-    <!--<UserControl.DataContext>
+    <!--<Window.DataContext>
         <vm:WerkzeugListeViewModel />
-    </UserControl.DataContext>-->
+    </Window.DataContext>-->
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
@@ -23,11 +23,11 @@
                   >
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
-                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="150"/>
-                    <GridViewColumn Header="Kategorie" DisplayMemberBinding="{Binding Category}" Width="100"/>
-                    <GridViewColumn Header="Ort" DisplayMemberBinding="{Binding Location}" Width="100"/>
-                    <GridViewColumn Header="Verfügbar" DisplayMemberBinding="{Binding Available}" Width="80"/>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="50"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="150"/>
+                    <GridViewColumn Header="Kategorie" DisplayMemberBinding="{Binding Category, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"/>
+                    <GridViewColumn Header="Ort" DisplayMemberBinding="{Binding Location, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100"/>
+                    <GridViewColumn Header="Verfügbar" DisplayMemberBinding="{Binding Available, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="80"/>
                 </GridView>
             </ListView.View>
         </ListView>

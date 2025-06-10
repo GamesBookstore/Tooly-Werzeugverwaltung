@@ -5,10 +5,16 @@
     <Compile Update="View\AddWerkzeugView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\WerkzeugListeView.xaml.cs">
+    <Compile Update="View\EditWerkzeugView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\WerkzeugView.xaml.cs">
+    <Compile Update="View\InputNameDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WerkzeugDetailsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WerkzeugListeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

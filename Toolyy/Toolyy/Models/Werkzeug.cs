@@ -1,36 +1,40 @@
-﻿using Common;
+﻿using System;
+using Common;
 
 namespace Toolyy.Models
 {
     public class Werkzeug : NotifyPropertyChanged
     {
-        #region ---------Fields, Constants, Delegates, Events ------------
+        #region --------- Fields, Constants, Delegates, Events ------------
 
         private int _id;
         private string _name;
         private string _category;
         private bool _available;
         private string _location;
+        private string _geborgtVon;
+        private DateTime? _geborgtAm;
 
         #endregion
 
-        #region ----------Constructors, Destructors, Dispose, Clone-------
+        #region ---------- Constructors, Destructors, Dispose, Clone -------
 
         public Werkzeug()
         {
         }
+
         public Werkzeug(int id, string name, string category, bool available, string location)
         {
-            Id = id;
-            Name = name;
-            Category = category;
-            Available = available;
-            Location = location;
+            _id = id;
+            _name = name;
+            _category = category;
+            _available = available;
+            _location = location;
         }
 
         #endregion
 
-        #region---------Properties, Indexers ----------------------------
+        #region --------- Properties, Indexers ----------------------------
 
         public int Id
         {
@@ -93,6 +97,32 @@ namespace Toolyy.Models
                 {
                     _location = value;
                     OnPropertyChanged(nameof(Location));
+                }
+            }
+        }
+
+        public string GeborgtVon
+        {
+            get => _geborgtVon;
+            set
+            {
+                if (_geborgtVon != value)
+                {
+                    _geborgtVon = value;
+                    OnPropertyChanged(nameof(GeborgtVon));
+                }
+            }
+        }
+
+        public DateTime? GeborgtAm
+        {
+            get => _geborgtAm;
+            set
+            {
+                if (_geborgtAm != value)
+                {
+                    _geborgtAm = value;
+                    OnPropertyChanged(nameof(GeborgtAm));
                 }
             }
         }

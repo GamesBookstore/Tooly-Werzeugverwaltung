@@ -25,9 +25,7 @@ namespace Toolyy.ViewModels
 
         private void ExecuteAddWerkzeug(object parameter)
         {
-            NeuesWerkzeug.Id = 0; 
-            EventAggregator.GetEvent<WerkzeugAddedEvent>().Publish(NeuesWerkzeug);
-            NeuesWerkzeug = new Werkzeug(); 
+           
             OnPropertyChanged(nameof(NeuesWerkzeug));
         }
     }

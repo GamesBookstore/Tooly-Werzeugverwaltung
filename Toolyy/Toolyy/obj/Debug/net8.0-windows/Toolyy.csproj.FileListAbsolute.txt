@@ -2,7 +2,6 @@ C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy.csproj
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\AddWerkzeugView.baml
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\AddWerkzeugView.g.cs
-C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugView.g.cs
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy_MarkupCompile.cache
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy_MarkupCompile.lref
@@ -15,7 +14,6 @@ C:\Users\david\source\repos\Toolyy\Toolyy\bin\Debug\net8.0-windows\Prism.Events.
 C:\Users\david\source\repos\Toolyy\Toolyy\bin\Debug\net8.0-windows\Common.dll
 C:\Users\david\source\repos\Toolyy\Toolyy\bin\Debug\net8.0-windows\Common.pdb
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugView.baml
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy.g.resources
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy.AssemblyInfoInputs.cache
@@ -29,3 +27,11 @@ C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\Toolyy.genrun
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\ref\Toolyy.dll
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugListeView.g.cs
 C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugListeView.baml
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\EditWerkzeugView.baml
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\EditWerkzeugView.g.cs
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugVerwaltungView.g.cs
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\InputNameDialog.baml
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\InputNameDialog.g.cs
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugDetailsView.g.cs
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugVerwaltungView.baml
+C:\Users\david\source\repos\Toolyy\Toolyy\obj\Debug\net8.0-windows\View\WerkzeugDetailsView.baml

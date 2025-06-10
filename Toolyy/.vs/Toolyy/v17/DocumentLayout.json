@@ -3,43 +3,106 @@
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Toolyy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{769F0048-9EEA-C619-B1D2-89279FDB4ADE}|..\\BspMVVM\\Common\\Common.csproj|c:\\users\\david\\source\\repos\\bspmvvm\\common\\command\\actioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\werkzeuglisteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\werkzeuglisteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeuglisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeuglisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\addwerkzeugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\addwerkzeugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\addwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\addwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeuglisteview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeuglisteview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\models\\werkzeug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\models\\werkzeug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeugverwaltungview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeugverwaltungview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeuglisteview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeuglisteview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeugverwaltungview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeugverwaltungview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\werkzeugdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\werkzeugdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\werkzeuglisteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\werkzeuglisteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\werkzeugverwaltungviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\werkzeugverwaltungviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeugdetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeugdetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeugdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeugdetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\inputnamedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\inputnamedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\inputnamedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\inputnamedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\addwerkzeugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\addwerkzeugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\viewmodels\\editwerkzeugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\viewmodels\\editwerkzeugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\werkzeuglisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\werkzeuglisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\events\\werkzeugaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\events\\werkzeugaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\editwerkzeugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\editwerkzeugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\addwerkzeugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\addwerkzeugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769F0048-9EEA-C619-B1D2-89279FDB4ADE}|..\\BspMVVM\\Common\\Common.csproj|c:\\users\\david\\source\\repos\\bspmvvm\\common\\notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769F0048-9EEA-C619-B1D2-89279FDB4ADE}|..\\BspMVVM\\Common\\Common.csproj|c:\\users\\david\\source\\repos\\bspmvvm\\common\\command\\actioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\editwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\editwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\view\\addwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\view\\addwerkzeugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|c:\\users\\david\\source\\repos\\toolyy\\toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA25FFF-D741-4EA6-B684-6712238583D0}|Toolyy\\Toolyy.csproj|solutionrelative:toolyy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Toolyy\\ViewModels\\WerkzeugViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,53 +112,244 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
+              "Title": "InputNameDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\InputNameDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Toolyy\\View\\InputNameDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\InputNameDialog.xaml.cs",
+              "RelativeToolTip": "Toolyy\\View\\InputNameDialog.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:02:37.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InputNameDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\InputNameDialog.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\InputNameDialog.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\InputNameDialog.xaml",
+              "RelativeToolTip": "Toolyy\\View\\InputNameDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T15:02:20.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WerkzeugDetailsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugDetailsView.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugDetailsView.xaml.cs",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugDetailsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:43:52.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WerkzeugDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\WerkzeugDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugDetailsViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\WerkzeugDetailsViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:43:24.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WerkzeugDetailsView.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugDetailsView.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugDetailsView.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugDetailsView.xaml",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugDetailsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T14:42:22.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WerkzeugVerwaltungViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugVerwaltungViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\WerkzeugVerwaltungViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugVerwaltungViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\WerkzeugVerwaltungViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:22:01.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WerkzeugVerwaltungView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugVerwaltungView.xaml.cs",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugVerwaltungView.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugVerwaltungView.xaml.cs",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugVerwaltungView.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:20:29.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WerkzeugVerwaltungView.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugVerwaltungView.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugVerwaltungView.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugVerwaltungView.xaml",
+              "RelativeToolTip": "Toolyy\\View\\WerkzeugVerwaltungView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T14:19:58.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotifyPropertyChanged.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BspMVVM\\Common\\NotifyPropertyChanged.cs",
+              "RelativeDocumentMoniker": "..\\BspMVVM\\Common\\NotifyPropertyChanged.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BspMVVM\\Common\\NotifyPropertyChanged.cs",
+              "RelativeToolTip": "..\\BspMVVM\\Common\\NotifyPropertyChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:02:48.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T20:35:44.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Werkzeug.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\Models\\Werkzeug.cs",
+              "RelativeDocumentMoniker": "Toolyy\\Models\\Werkzeug.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\Models\\Werkzeug.cs",
+              "RelativeToolTip": "Toolyy\\Models\\Werkzeug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:39:42.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditWerkzeugViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\EditWerkzeugViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\EditWerkzeugViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\EditWerkzeugViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\EditWerkzeugViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:45:04.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditWerkzeugView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\EditWerkzeugView.xaml.cs",
+              "RelativeDocumentMoniker": "Toolyy\\View\\EditWerkzeugView.xaml.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\EditWerkzeugView.xaml.cs",
+              "RelativeToolTip": "Toolyy\\View\\EditWerkzeugView.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:42:23.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditWerkzeugView.xaml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\EditWerkzeugView.xaml",
+              "RelativeDocumentMoniker": "Toolyy\\View\\EditWerkzeugView.xaml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\EditWerkzeugView.xaml",
+              "RelativeToolTip": "Toolyy\\View\\EditWerkzeugView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T19:42:00.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WerkzeugViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\WerkzeugViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\WerkzeugViewModel.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:21:38.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WerkzeugAddedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\Events\\WerkzeugAddedEvent.cs",
+              "RelativeDocumentMoniker": "Toolyy\\Events\\WerkzeugAddedEvent.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\Events\\WerkzeugAddedEvent.cs",
+              "RelativeToolTip": "Toolyy\\Events\\WerkzeugAddedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:50:00.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddWerkzeugViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\AddWerkzeugViewModel.cs",
+              "RelativeDocumentMoniker": "Toolyy\\ViewModels\\AddWerkzeugViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\AddWerkzeugViewModel.cs",
+              "RelativeToolTip": "Toolyy\\ViewModels\\AddWerkzeugViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:20:27.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AddWerkzeugView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\AddWerkzeugView.xaml.cs",
               "RelativeDocumentMoniker": "Toolyy\\View\\AddWerkzeugView.xaml.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\AddWerkzeugView.xaml.cs",
               "RelativeToolTip": "Toolyy\\View\\AddWerkzeugView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:33:56.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T20:33:56.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "ActionCommand.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BspMVVM\\Common\\Command\\ActionCommand.cs",
               "RelativeDocumentMoniker": "..\\BspMVVM\\Common\\Command\\ActionCommand.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\BspMVVM\\Common\\Command\\ActionCommand.cs",
               "RelativeToolTip": "..\\BspMVVM\\Common\\Command\\ActionCommand.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:10:06.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T20:10:06.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WerkzeugView.xaml",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugView.xaml",
-              "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugView.xaml",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugView.xaml",
-              "RelativeToolTip": "Toolyy\\View\\WerkzeugView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T18:22:16.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "WerkzeugListeView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml.cs",
               "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugListeView.xaml.cs",
@@ -103,49 +357,45 @@
               "RelativeToolTip": "Toolyy\\View\\WerkzeugListeView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:22:13.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:22:13.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "AddWerkzeugView.xaml",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\AddWerkzeugView.xaml",
               "RelativeDocumentMoniker": "Toolyy\\View\\AddWerkzeugView.xaml",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\AddWerkzeugView.xaml",
               "RelativeToolTip": "Toolyy\\View\\AddWerkzeugView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T18:22:06.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:22:06.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "WerkzeugListeView.xaml",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml",
               "RelativeDocumentMoniker": "Toolyy\\View\\WerkzeugListeView.xaml",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\View\\WerkzeugListeView.xaml",
               "RelativeToolTip": "Toolyy\\View\\WerkzeugListeView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T17:56:50.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T17:56:50.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "WerkzeugListeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
               "RelativeDocumentMoniker": "Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
               "RelativeToolTip": "Toolyy\\ViewModels\\WerkzeugListeViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwC8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:54:48.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T17:54:48.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Toolyy\\MainWindow.xaml",
@@ -157,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Toolyy\\MainWindow.xaml.cs",
@@ -165,21 +415,19 @@
               "RelativeToolTip": "Toolyy\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:58:25.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T13:58:25.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "Toolyy\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\Toolyy\\Toolyy\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "Toolyy\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:53:30.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T13:53:30.399Z"
             }
           ]
         }

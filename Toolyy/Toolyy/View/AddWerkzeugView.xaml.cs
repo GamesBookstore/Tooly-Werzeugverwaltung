@@ -21,25 +21,16 @@ namespace Toolyy.View
     /// </summary>
     public partial class AddWerkzeugView : Window
     {
-        public AddWerkzeugView(Werkzeug werkzeug = null)
+        public Werkzeug NeuesWerkzeug { get; private set; }
+
+        public AddWerkzeugView(Werkzeug werkzeug)
         {
             InitializeComponent();
-
-            if (werkzeug == null)
-            {
-                werkzeug = new Werkzeug();
-            }
-
-            DataContext = werkzeug;
+            AktuellesWerkzeug = werkzeug;
+            DataContext = this;
         }
 
-        public Werkzeug Werkzeug
-        {
-            get
-            {
-                return DataContext as Werkzeug;
-            }
-        }
+        public Werkzeug AktuellesWerkzeug { get; set; }
 
         private void Hinzufuegen_Click(object sender, RoutedEventArgs e)
         {
@@ -47,5 +38,10 @@ namespace Toolyy.View
             Close();
         }
 
+        private void Abbrechen_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+            Close();
+        }
     }
 }

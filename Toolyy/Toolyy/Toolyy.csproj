@@ -9,7 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewModels\WerkzeugViewModel.cs" />
+    <Compile Remove="View\WerkzeugView.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="View\WerkzeugView.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\BspMVVM\Common\Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="View\WerkzeugVerwaltungView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

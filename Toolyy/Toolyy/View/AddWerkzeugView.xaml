@@ -30,7 +30,8 @@
             <TextBlock Text="Standort:"/>
             <TextBox Text="{Binding AktuellesWerkzeug.Location, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
 
-            <Button Content="Werkzeug hinzufügen" Click="Hinzufuegen_Click" Command="{Binding AddWerkzeugCommand}" HorizontalAlignment="Left" Width="150"/>
+            <Button Content="Hinzufügen" Click="Hinzufuegen_Click" Width="100" Margin="0,0,10,0"/>
+            <Button Content="Abbrechen" Click="Abbrechen_Click" Width="100"/>
         </StackPanel>
     </Grid>
 </Window>
